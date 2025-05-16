@@ -104,6 +104,9 @@ For example: [Ankr](https://www.ankr.com/rpc/?utm_referral=LqL9Sv86Te) is suppor
 
 > You can run your own Geth & Prysm nodes to get your own `RPC URL` & `BEACON RPC` or find any other 3rd party solutions
 
+### 7 Day free RPC (Highly recommended if you're just trying for the role)
+   * [Tenderly](https://dashboard.tenderly.co/register)
+
 ## 5. Generate Ethereum Keys
 Get an EVM Wallet with `Private Key` and `Public Address` saved.
 
