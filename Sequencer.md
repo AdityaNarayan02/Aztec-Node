@@ -31,6 +31,7 @@ sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano aut
 ```
 
 * Install Docker:
+  ### For Linux
 ```bash
 sudo apt update -y && sudo apt upgrade -y
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
@@ -63,6 +64,7 @@ sudo docker run hello-world
 sudo systemctl enable docker
 sudo systemctl restart docker
 ```
+### For Windows [Download](https://docs.docker.com/desktop/setup/install/windows-install/)
 
 ## 2. Install Aztec Tools
 ```bash
@@ -85,27 +87,9 @@ aztec-up alpha-testnet
 ```
 
 ## 4. Obtain RPC URLs
-* Find a 3rd party that supports Sepolia `RPC URL` & Sepolia `BEACON URL` APIs.
-* Most of your usage is `RPC URL`.You can use [Alchemy](https://dashboard.alchemy.com/) for `RPC URL` & Use [drpc](https://drpc.org/) for `Beacon URL`
-* More details on Free & Paid 3rd party solutions:
 
-### Free:
-* `RPC URL`: Create a Sepolia Ethereum HTTP API in [Alchemy](https://dashboard.alchemy.com/)
-* `BEACON RPC`: Create an account on [drpc](https://drpc.org/) and search for `Sepolia Ethereum Beacon Chain ` Endpoints.
 
-![image](https://github.com/user-attachments/assets/eae865ab-461f-46cd-b3f9-b7d118dcbbdf)
 
-### Paid: 
-For example: [Ankr](https://www.ankr.com/rpc/?utm_referral=LqL9Sv86Te) is supporting `RPC URL` & `Beacon URL`. You can Register, Fund it with a little USDT via your wallet, Create a project, get your normal **sepolia rpc** and **beacon sepolia rpc**.
-
-![image](https://github.com/user-attachments/assets/cfde5dec-ac1a-4d58-855b-43c4374c5c87)
-
-![image](https://github.com/user-attachments/assets/ffb97518-cd24-46ee-b131-92b2870ac407)
-
-> You can run your own Geth & Prysm nodes to get your own `RPC URL` & `BEACON RPC` or find any other 3rd party solutions
-
-### 7 Day free RPC (Highly recommended if you're just trying for the role)
-   * [Tenderly](https://dashboard.tenderly.co/register) ,for Sepolia RPC, get Beacon RPC From [drpc](https://drpc.org/)
 
 ## 5. Generate Ethereum Keys
 Get an EVM Wallet with `Private Key` and `Public Address` saved.
