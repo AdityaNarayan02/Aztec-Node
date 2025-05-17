@@ -88,7 +88,7 @@ aztec-up alpha-testnet
 
 ## 4. Obtain RPC URLs
 
-
+[Get RPCs](https://github.com/AdityaNarayan02/Aztec-Node/blob/main/Get%20RPCs.md)
 
 
 ## 5. Generate Ethereum Keys
