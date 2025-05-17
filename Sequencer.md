@@ -106,13 +106,13 @@ curl ipv4.icanhazip.com
 ## 8. Enable Firewall & Open Ports
 ```console
 # Firewall
-ufw allow 22
-ufw allow ssh
-ufw enable
+sudo ufw allow 22
+sudo ufw allow ssh
+sudo ufw enable
 
 # Sequencer
-ufw allow 40400
-ufw allow 8080
+sudo ufw allow 40400
+sudo ufw allow 8080
 ```
 
 ## 9. Run Sequencer Node
